@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+
+    <definition name="adminLayout" template="/WEB-INF/views/layout.jsp"></definition>
+
+	<definition name="category-index" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/index.jsp"> </definition>
+	<definition name="category-edit" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/edit.jsp"> </definition>
+	<definition name="category-list" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/list.jsp"> </definition>
+	<definition name="category-number" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/number.jsp"> </definition>
+    <definition name="category-close" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/close.jsp"> </definition>
+    <definition name="category-layout" extends="adminLayout"> <put-attribute name="adminBody" value="/WEB-INF/views/admin/category/layout.jsp"> </definition>
+			
+
+
+
+
+	
+  
+</tiles-definitions>
